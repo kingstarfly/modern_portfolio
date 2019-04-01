@@ -93,13 +93,14 @@
       height: 250px;
       background: url("../img/portrait2.jpg");
       background-position: center;
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
   }
 
   .nav-item {
-    transform: translate3d(600px, 0, 0);
+    transform: translate3d(75vw, 0, 0);
     @include easeOut;
 
     &.show {
